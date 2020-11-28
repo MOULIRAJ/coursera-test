@@ -1,1 +1,111 @@
-theme: jekyll-theme-cayman
+<docutype html!>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title> first program</title>
+<style>
+*
+{
+box-sizing:border-box;
+}
+h1{
+text-align:center;
+}
+section{
+background-color:grey;
+
+border:1px solid black;
+margin:10px;
+}
+h2{
+text-align:center;
+width:100px;
+position:relative;
+top:-22px;
+left:247px;
+border:1px solid black;
+}
+#sec1{
+ float:left; 
+position:relative;
+width:350px;
+height:250px;
+padding:2px;
+}
+#sec2{
+ float:left; 
+position:relative;
+width:350px;
+height:250px;
+padding:2px;
+}
+#sec3{
+ float:left; 
+position:relative;
+width:350px;
+height:250px;
+padding:2px;
+}
+#ch{
+background-color:red;
+}
+#mi{
+background-color:blue;
+}
+#fr{
+background-color:green;
+}
+@media   (max-width:767px) {
+  #sec1,#sec2 ,#sec3 {
+    width:100%;
+    }
+ }   
+ @media  (min-width:768px)and(max-width:991px) {
+   #sec1 {
+    width:50%;
+    }
+     #sec2 {
+    width:50%;
+    }
+  #sec3 {
+    width:100%;
+    }
+  }  
+</style>
+</head>
+<body>
+<h1> Our menu</h1>
+<section id=sec1> 
+<h2 id=ch>chicken</h2>
+chicjen is healt and has more protein . It is a non-veg.you will
+ NOT be graded on this, but you may want to explicitly 
+set a font-family for the text in your page, so you are not stuck 
+with the default browser font family. Also, set the font size of 
+the heading and section title to be 75% larger and 25% larger
+ (respectively) than the font size of the dummy text.
+</section>
+
+<section id=sec2>
+<h2 id=mi>milk</h2>
+milk is a protein rich. white in a color.
+you will
+ NOT be graded on this, but you may want to explicitly 
+set a font-family for the text in your page, so you are not stuck 
+with the default browser font family. Also, set the font size of 
+the heading and section title to be 75% larger and 25% larger
+ (respectively) than the font size of the dummy text.
+</section>
+
+<section id=sec3>
+<h2 id=fr>fruit</h2> 
+fruits are healthier everyone should eat one fruit everyday 
+you will
+ NOT be graded on this, but you may want to explicitly 
+set a font-family for the text in your page, so you are not stuck 
+with the default browser font family. Also, set the font size of 
+the heading and section title to be 75% larger and 25% larger
+ (respectively) than the font size of the dummy text.
+</section>
+</body>
+</html>
